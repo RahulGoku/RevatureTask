@@ -19,22 +19,20 @@ public void powerOfNumber(int a,int b) {
 	System.out.println(b+" to the power "+a+" is "+Math.pow(a,b));
 }
 public void checkPrime(int a) {
-	int flag=0;
 	if(a<=1)System.out.println("Not A Prime Number");
 	else{
-		for(int i=2;i<=a/2;i++) {
-		if(a%i==0) {
-			flag=1;
-			break;
+		for(int i=2;i<a/2;i++) {
+	}
+		if(a%i!=0) {
+			continue;
 		}	
 		else {
-			flag=0;
-			continue;
+			System.out.println("Not A Prime Number");
+			break;
+		}
+		System.out.println("Prime Number");
 	}
-	}
-	}
-	if(flag==1)System.out.println("Not a Prime Number");
-	else System.out.println("Prime Number");
+}
     
 }
 public void journeyTime(int Distance,int Speed) {

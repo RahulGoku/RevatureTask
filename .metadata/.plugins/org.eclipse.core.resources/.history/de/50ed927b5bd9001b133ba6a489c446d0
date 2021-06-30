@@ -22,13 +22,12 @@ public void checkPrime(int a) {
 	int flag=0;
 	if(a<=1)System.out.println("Not A Prime Number");
 	else{
-		for(int i=2;i<=a/2;i++) {
+		for(int i=2;i<a/2;i++) {
 		if(a%i==0) {
 			flag=1;
 			break;
 		}	
 		else {
-			flag=0;
 			continue;
 	}
 	}
