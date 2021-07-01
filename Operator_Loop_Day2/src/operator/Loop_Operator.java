@@ -4,7 +4,8 @@ import java.util.*;
 public class Loop_Operator {
 public static void main(String[] args) {
 	int a,b,choice;
-	Operator_test o = new Operator_test();
+	Operator_test o = new Operator_test("Rahul");
+	o.Welcome();
 	System.out.println("Press 1 for Comparing the Number ");
 	System.out.println("Press 2 for Logical Operator ");
 	System.out.println("Press 3 Find the power  ");
@@ -17,6 +18,7 @@ public static void main(String[] args) {
 		b=sc.nextInt();
 		choice=sc.nextInt();
 	}
+
 	
     switch(choice) {
     case 1: o.compareNumber(a, b);
@@ -33,8 +35,7 @@ public static void main(String[] args) {
      		break;
     default : System.out.println("Enter the valid Key :");
               break;
-    
-    
+   
     }
 	
      

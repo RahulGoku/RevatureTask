@@ -1,6 +1,13 @@
 package operator;
 
 public class Operator_test {
+private String p;
+public Operator_test(String p) {
+	this.p=p;
+}
+public void Welcome() {
+	System.out.println("Welcome to Program :"+p);
+}
 public void compareNumber(int a,int b) {
 	if(a>b) System.out.println(a+"is Greater Than "+b);
 	else if(a<b)System.out.println(a+"is Smaller Than "+b);
