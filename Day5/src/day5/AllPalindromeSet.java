@@ -2,7 +2,7 @@ package day5;
 import java.util.HashSet;
 
 //Find all the palindrome in an array
-public class AllPalindrome {
+public class AllPalindromeSet {
 public static void main(String[] args) {
 	String s="abaaa";
 	System.out.println(checkVowelOrder(s));
