@@ -1,5 +1,5 @@
 package stringbuilder;
-
+//Convert Last Position  to Block Letter
 import java.util.Scanner;
 
 public class StringQuery {

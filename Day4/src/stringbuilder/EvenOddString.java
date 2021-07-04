@@ -7,6 +7,7 @@ public abstract class EvenOddString {
 		     Scanner sc = new Scanner(System.in);
 			 System.out.println("Enter the String");
 			 String s=sc.nextLine();
+			 System.out.println("Length of  the String : "+s.length());
 			 System.out.println(stringOddEven(s));
 			 sc.close();
 		

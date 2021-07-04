@@ -14,6 +14,7 @@ public class Palindrome {
 //		sb.reverse();
 //		String temp = sb.toString();
 //		return s.equals(temp);
+	    
 		
 		return new StringBuffer(s).reverse().toString().equals(s);
 	}
